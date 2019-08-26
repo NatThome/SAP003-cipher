@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(116, 185, 250);
+    text-align: center;
+    width: 600px;
+    padding: 0px 20px 20px 20px;
+    border: 5px solid black
+}
+
+h1{
+    background-color: rgb(8, 133, 250);
+    text-align: center;
+    color: crimson;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px rgb(83, 82, 80);
+}
+
+.pp1{
+    color: rgb(134, 0, 211);
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.pp2{
+    color: rgb(134, 0, 211);
+    text-align: center;
+    font-family: cursive;
+    font-size:20px;
+}
+
+.pp3{
+    color: darkorange;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+input[type=text]{
+    width:200px ;
+    height:40px ;
+    border-radius:10px ;
+    text-align: center;
+    box-align: center;
+}
+
+input[type=number]{
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.buttonC{
+    color: chartreuse;
+    background-color: coral;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.buttonD{
+    color: coral;
+    background-color: chartreuse;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 15px;
+}

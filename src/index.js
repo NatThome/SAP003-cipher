@@ -8,7 +8,7 @@ function cifra() {
 
 document.getElementById("btn-decifra").addEventListener("click", decifra);
 function decifra() {
-  const textDecod = document.getElementById("decifra_texto").value;
+  const textDecod = document.getElementById("cifra_texto").value;
   let offset = parseInt(document.getElementById("chave").value);
   let resultDecode = window.cipher.decode(offset, textDecod);
   document.getElementById("cifrado").innerHTML = `${resultDecode}`;
